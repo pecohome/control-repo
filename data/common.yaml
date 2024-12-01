@@ -1,4 +1,4 @@
----
+
 # /etc/puppetlabs/code/environments/production/data/common.yaml
 ---
 profile::hiera_test::ssl: false
