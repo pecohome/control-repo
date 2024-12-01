@@ -29,3 +29,4 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+include profile::hiera_test
