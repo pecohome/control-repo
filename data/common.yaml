@@ -3,5 +3,5 @@
 ---
 profile::hiera_test::ssl: false
 profile::hiera_test::backups_enabled: true
-profile::hiera_test::site_alias: "cltnc"
+profile::hiera_test::site_alias: "cltnc2024"
 #message: "This node is using common data"
