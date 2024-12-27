@@ -30,3 +30,7 @@ node default {
   #   class { 'my_class': }
 }
 include profile::hiera_test
+
+node labpetestub02.home.lab {
+  include ntp
+}
