@@ -17,4 +17,4 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
 ## testing my first forge module
-mod 'puppetlab/ntp', :latest
+mod 'puppetlabs/ntp', :latest
