@@ -31,6 +31,8 @@ node default {
 }
 include profile::hiera_test
 
-node labpetestub02.home.lab {
-  include ntp
+node 'labpetestub02.home.lab' {
+  class { 'ntp': 
+    servers => ['pool.ntp.org']
+  }
 }
