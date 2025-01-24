@@ -35,4 +35,5 @@ node 'labpetestub02.home.lab' {
   class { 'ntp': 
     servers => ['pool.ntp.org']
   }
+  include ldap::server
 }
