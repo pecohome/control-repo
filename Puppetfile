@@ -20,6 +20,6 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs/stdlib', :latest
 mod 'puppetlabs/ntp', :latest
 mod 'ldap',
-    :git => 'git@github.com:pecohome/control-repo.git',
-    :branch => :control_branch,
-    :default_branch => 'production'
+    git => 'git@github.com:pecohome/control-repo.git',
+    branch => 'my_test_enviornment'
+#    :default_branch => 'production'
