@@ -19,7 +19,8 @@ forge 'https://forge.puppet.com'
 ## testing my first forge module
 mod 'puppetlabs/stdlib', :latest
 mod 'puppetlabs/ntp', :latest
-#mod 'ldap',
-#    :git => 'git@github.com:pecohome/control-repo.git',
+mod 'ldap',
+    :git => 'git@github.com:pecohome/control-repo.git',
+    :branch => 'my_test_enviornment'
 #    :branch => :control_branch,
-#    :default_branch => 'my_test_enviornment'
+    :default_branch => 'my_test_enviornment'
