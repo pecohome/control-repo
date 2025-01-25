@@ -22,4 +22,4 @@ mod 'puppetlabs/ntp', :latest
 mod 'ldap',
     :git => 'git@github.com:pecohome/control-repo.git',
     :branch => :control_branch,
-    :default_branch => 'production'
+    :default_branch => 'my_test_enviornment'
