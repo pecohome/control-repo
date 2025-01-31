@@ -19,7 +19,7 @@ forge 'https://forge.puppet.com'
 ## testing my first forge module
 mod 'puppetlabs/stdlib', :latest
 mod 'puppetlabs/ntp', :latest
-mod 'peco_ldap',
+mod 'pecohome_ldap',
     :git => 'git@github.com:pecohome/custom-modules.git',
     :branch => 'main',
     :default_branch => 'production'
