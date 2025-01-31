@@ -36,5 +36,5 @@ node 'labpetestub02.home.lab' {
     servers => ['pool.ntp.org']
   }
   #include ldap::server
-  include openldap::server
+  include pecohome_ldap
 }
