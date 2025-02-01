@@ -19,8 +19,8 @@ forge 'https://forge.puppet.com'
 ## testing my first forge module
 mod 'puppetlabs/stdlib', :latest
 mod 'puppetlabs/ntp', :latest
-mod 'camptocamp/openldap', '4.3.0'
-# pecohome_ldap used camptocamp/openldap
+mod 'puppet/openldap', :latest
+# pecohome_ldap uses puppet/openldap
 mod 'pecohome_ldap',
     :git => 'git@github.com:pecohome/custom-modules.git',
     :branch => 'main',
